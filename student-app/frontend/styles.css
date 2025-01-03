@@ -39,3 +39,18 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+/* Revise the CSS to ensure proper styling and responsiveness */
+@media (max-width: 768px) {
+    header, footer {
+        padding: 0.5rem;
+    }
+
+    main {
+        padding: 0.5rem;
+    }
+
+    section {
+        padding: 0.5rem;
+    }
+}
