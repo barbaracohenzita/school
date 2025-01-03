@@ -61,12 +61,74 @@ Before you open up a codespace on a repository, you can create a development con
 
 **Wait about 60 seconds then refresh your repository landing page for the next step.**
 
-### :keyboard: Activity: Enable Copilot in a Codespace
+## Instructions to run the Student Organization Study App
 
-1. Open the Codespace you created in the previous step.
-2. Click on the Extensions view icon on the Sidebar (or press `Ctrl+Shift+X`).
-3. In the Extensions view, search for "GitHub Copilot".
-4. Click the "Install" button for the GitHub Copilot extension.
-5. Once installed, you should see the GitHub Copilot icon in the Sidebar.
+### Prerequisites
 
-**Wait about 60 seconds then refresh your repository landing page for the next step.**
+- Node.js (v14.x or later)
+- MongoDB
+- PostgreSQL
+- MySQL
+
+### Setup
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/barbaracohenzita/school.git
+   cd school/student-app
+   ```
+
+2. Install dependencies for the backend:
+
+   ```bash
+   cd backend
+   npm install
+   ```
+
+3. Set up environment variables for the backend:
+
+   Create a `.env` file in the `backend` directory with the following content:
+
+   ```env
+   MONGODB_URI=mongodb://localhost:27017/student-app
+   PG_USER=your_pg_user
+   PG_PASSWORD=your_pg_password
+   PG_HOST=localhost
+   PG_PORT=5432
+   PG_DATABASE=student-app
+   MYSQL_USER=your_mysql_user
+   MYSQL_PASSWORD=your_mysql_password
+   MYSQL_HOST=localhost
+   MYSQL_PORT=3306
+   MYSQL_DATABASE=student-app
+   ```
+
+4. Start the backend server:
+
+   ```bash
+   npm start
+   ```
+
+   The backend server should now be running at `http://localhost:3000`.
+
+5. Open a new terminal and navigate to the `frontend` directory:
+
+   ```bash
+   cd ../frontend
+   ```
+
+6. Open the `index.html` file in your preferred web browser to view the frontend of the app.
+
+### New Features and Improvements
+
+- User authentication using JWT
+- User login and registration
+- CRUD operations for user data
+- Study materials management
+- Event management
+- Notifications
+- Messaging
+- Task management
+- Calendar integration
+- Analytics
