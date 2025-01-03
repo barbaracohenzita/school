@@ -40,23 +40,12 @@ footer {
     width: 100%;
 }
 
-add-student-app
 /* Responsive design for different screen sizes */
-=
-/* Revise the CSS to ensure proper styling and responsiveness */
-main
 @media (max-width: 768px) {
     header, footer {
         padding: 0.5rem;
     }
 
- add-student-app
-
-    main {
-        padding: 0.5rem;
-    }
-
-    main
     section {
         padding: 0.5rem;
     }

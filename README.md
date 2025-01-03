@@ -150,6 +150,22 @@ Before you open up a codespace on a repository, you can create a development con
 - Calendar integration
 - Analytics
 
+### Backend Server Setup
+
+1. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+2. Start the server:
+
+   ```bash
+   npm start
+   ```
+
+   The server should now be running at `http://localhost:3000`.
+
 <footer>
 
 <!--

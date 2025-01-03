@@ -41,3 +41,32 @@ In this course, you learned how to use GitHub Copilot to enhance your coding exp
 - [GitHub Copilot for Individuals](https://github.com/features/copilot)
 - [GitHub Copilot for Teams](https://github.com/features/copilot)
 - [GitHub Copilot for Education](https://github.com/features/copilot)
+
+### New Features and Improvements
+
+- User authentication using JWT
+- User login and registration
+- CRUD operations for user data
+- Study materials management
+- Event management
+- Notifications
+- Messaging
+- Task management
+- Calendar integration
+- Analytics
+
+### Backend Server Setup
+
+1. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+2. Start the server:
+
+   ```bash
+   npm start
+   ```
+
+   The server should now be running at `http://localhost:3000`.
