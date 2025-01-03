@@ -29,3 +29,15 @@ Here's a recap of all the tasks you completed:
 - [Learn another GitHub skill](https://github.com/skills).
 - [Read the Get started with GitHub docs](https://docs.github.com/en/get-started).
 - To find projects to contribute to, check out [GitHub Explore](https://github.com/explore).
+
+### Summary of the course
+
+In this course, you learned how to use GitHub Copilot to enhance your coding experience. You enabled Copilot in a Codespace, used Copilot to accept suggested code, viewed multiple suggestions in the Copilot hub, and generated code from comments using Copilot. By the end of this course, you should have a solid understanding of how to use GitHub Copilot to improve your productivity and code quality.
+
+### Additional resources
+
+- [GitHub Copilot documentation](https://docs.github.com/en/copilot)
+- [GitHub Copilot for Business](https://github.com/features/copilot)
+- [GitHub Copilot for Individuals](https://github.com/features/copilot)
+- [GitHub Copilot for Teams](https://github.com/features/copilot)
+- [GitHub Copilot for Education](https://github.com/features/copilot)

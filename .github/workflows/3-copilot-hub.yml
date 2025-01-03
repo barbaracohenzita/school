@@ -11,7 +11,7 @@ on:
     paths:
       - "member.js"
     branches:
-      - main
+      - member.js
 
 # Reference: https://docs.github.com/en/actions/security-guides/automatic-token-authentication
 permissions:

@@ -104,6 +104,19 @@ function initializeAuthentication(app) {
         });
     });
 
+    app.post('/register', (req, res) => {
+        const { username, password } = req.body;
+        const newUser = new User({ username });
+        newUser.setPassword(password);
+        newUser.save((err) => {
+            if (err) {
+                return res.status(500).json({ message: 'Error registering user' });
+            }
+            const token = generateToken(newUser);
+            res.json({ token });
+        });
+    });
+
     app.get('/protected', authenticateJWT, (req, res) => {
         res.json({ message: 'This is a protected route' });
     });

@@ -1,9 +1,9 @@
 name: Step 2, Javascript function
 
-# This step triggers after push to main#skills.js.
+# This step triggers after push to skills.js.
 # This workflow updates from step 2 to step 3.
 
-# This will run every time we push to main#skills.js.
+# This will run every time we push to skills.js.
 # Reference: https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows
 on:
   workflow_dispatch:
@@ -11,7 +11,7 @@ on:
     paths:
       - "skills.js"
     branches:
-      - main
+      - skills.js
 
 # Reference: https://docs.github.com/en/actions/security-guides/automatic-token-authentication
 permissions:

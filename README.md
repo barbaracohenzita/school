@@ -137,6 +137,19 @@ Before you open up a codespace on a repository, you can create a development con
 
 6. Open the `index.html` file in your preferred web browser to view the frontend of the app.
 
+### New Features and Improvements
+
+- User authentication using JWT
+- User login and registration
+- CRUD operations for user data
+- Study materials management
+- Event management
+- Notifications
+- Messaging
+- Task management
+- Calendar integration
+- Analytics
+
 <footer>
 
 <!--
