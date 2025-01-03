@@ -2,7 +2,11 @@ const express = require('express');
 const mongoose = require('mongoose');
 const { Pool } = require('pg');
 const mysql = require('mysql2');
+add-student-app
 const initializeAuthentication = require('./auth');
+=======
+const initializeAuthentication = require('./auth'); // Import the authentication module
+ main
 
 const app = express();
 const port = process.env.PORT || 3000;
@@ -60,6 +64,7 @@ app.get('/', (req, res) => {
     res.send('Welcome to the Student Organization Study App Backend');
 });
 
+add-student-app
 // User authentication routes
 app.post('/login', (req, res) => {
     // Handle user login
@@ -88,6 +93,17 @@ app.put('/users/:id', (req, res) => {
 
 app.delete('/users/:id', (req, res) => {
     // Delete user by ID
+=======
+// Add more routes as needed
+app.get('/api/users', (req, res) => {
+    // Example route to get users
+    res.json({ message: 'Get users' });
+});
+
+app.post('/api/users', (req, res) => {
+    // Example route to create a user
+    res.json({ message: 'Create user' });
+main
 });
 
 app.listen(port, () => {
