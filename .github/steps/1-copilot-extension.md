@@ -60,3 +60,13 @@ Before you open up a codespace on a repository, you can create a development con
    ![Screen Shot 2023-03-09 at 9 04 13 AM](https://user-images.githubusercontent.com/26442605/224102514-7d6d2f51-f435-401d-a529-7bae3ae3e511.png)
 
 **Wait about 60 seconds then refresh your repository landing page for the next step.**
+
+### :keyboard: Activity: Enable Copilot in a Codespace
+
+1. Open the Codespace you created in the previous step.
+2. Click on the Extensions view icon on the Sidebar (or press `Ctrl+Shift+X`).
+3. In the Extensions view, search for "GitHub Copilot".
+4. Click the "Install" button for the GitHub Copilot extension.
+5. Once installed, you should see the GitHub Copilot icon in the Sidebar.
+
+**Wait about 60 seconds then refresh your repository landing page for the next step.**

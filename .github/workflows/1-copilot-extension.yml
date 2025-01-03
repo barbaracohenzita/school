@@ -8,8 +8,6 @@ name: Step 1, Copilot Extension in a Codespace
 on:
   workflow_dispatch:
   push:
-    paths:
-      - ".devcontainer/devcontainer.json"
     branches:
       - main
 
