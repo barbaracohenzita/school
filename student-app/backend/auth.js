@@ -104,6 +104,7 @@ function initializeAuthentication(app) {
         });
     });
 
+<<<<<<< HEAD
     app.post('/register', (req, res) => {
         const { username, password } = req.body;
         const newUser = new User({ username });
@@ -117,6 +118,8 @@ function initializeAuthentication(app) {
         });
     });
 
+=======
+>>>>>>> ghcw-session-93a1-010325080327
     app.get('/protected', authenticateJWT, (req, res) => {
         res.json({ message: 'This is a protected route' });
     });

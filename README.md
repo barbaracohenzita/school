@@ -137,6 +137,7 @@ Before you open up a codespace on a repository, you can create a development con
 
 6. Open the `index.html` file in your preferred web browser to view the frontend of the app.
 
+<<<<<<< HEAD
 ### New Features and Improvements
 
 - User authentication using JWT
@@ -150,6 +151,8 @@ Before you open up a codespace on a repository, you can create a development con
 - Calendar integration
 - Analytics
 
+=======
+>>>>>>> ghcw-session-93a1-010325080327
 <footer>
 
 <!--

@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
         userProfilesSection.style.display = userProfilesSection.style.display === 'none' ? 'block' : 'none';
     });
     document.body.appendChild(toggleUserProfilesButton);
+<<<<<<< HEAD
 
     // Add event listeners and JavaScript functionality for other sections
 
@@ -237,4 +238,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     document.body.appendChild(toggleAnalyticsButton);
  main
+=======
+>>>>>>> ghcw-session-93a1-010325080327
 });

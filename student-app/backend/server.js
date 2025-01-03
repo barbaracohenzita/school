@@ -2,11 +2,14 @@ const express = require('express');
 const mongoose = require('mongoose');
 const { Pool } = require('pg');
 const mysql = require('mysql2');
+<<<<<<< HEAD
 add-student-app
 const initializeAuthentication = require('./auth');
 =======
 const initializeAuthentication = require('./auth'); // Import the authentication module
  main
+=======
+>>>>>>> ghcw-session-93a1-010325080327
 
 const app = express();
 const port = process.env.PORT || 3000;
@@ -56,14 +59,18 @@ mysqlConnection.connect((err) => {
     }
 });
 
+<<<<<<< HEAD
 // Initialize authentication
 initializeAuthentication(app);
 
+=======
+>>>>>>> ghcw-session-93a1-010325080327
 // Routes
 app.get('/', (req, res) => {
     res.send('Welcome to the Student Organization Study App Backend');
 });
 
+<<<<<<< HEAD
 add-student-app
 // User authentication routes
 app.post('/login', (req, res) => {
@@ -106,6 +113,8 @@ app.post('/api/users', (req, res) => {
 main
 });
 
+=======
+>>>>>>> ghcw-session-93a1-010325080327
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
 });
