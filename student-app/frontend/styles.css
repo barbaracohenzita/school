@@ -39,3 +39,14 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+/* Responsive design for different screen sizes */
+@media (max-width: 768px) {
+    header, footer {
+        padding: 0.5rem;
+    }
+
+    section {
+        padding: 0.5rem;
+    }
+}
